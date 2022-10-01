@@ -1,21 +1,33 @@
-// document.write('<p>Hello From Js File</p>');
-// document.querySelector('p').style.color = "blue";
-// document.querySelector('p').style.fontSize = "80px"
+// video              5
+// wait the window to load
+    // window.onload = function () {
+    //     document.querySelector('h1').style.color = "blue";
+    // };
 
-// window.onload = function() {
-//     document.querySelector('h1').style.color = "red";
-// }
 
-// window.alert('hello from alert');
+// video              6
+// Single line comment
+/*
+    Multiple 
+                line 
+                        comment
+ */
 
-// document.write('document.write')
 
-// window.console.log('window console log')
+// video     output to screen         7
+// window.alert('hello from js');
+// document.write('hello form document write')
+// document.write('<h1>hello form document write</h1>')
+// console.log('hello from console')
+/* document.createElement()   ADVANCED */
 
-console.log("printing from console");
-window.console.log('%cprinting from %cconsole' , "text-transform: uppercase ; font-size: 20px;" , "color:white; background-color: red; font-size: 50px" )
-window.console.error('Go Away Mother Fucker');
-window.console.table(['selmy' , 'samir', 'abed' , 'mohamed']);
 
-let myName = 'osOs';
-document.write('hello sir,' + myName);
+// video     Console Methods         8
+// console.log('log')
+// console.error('error')
+// console.warn("warn")
+// console.table(['mohamed', 'ahmed' ,'ali'])
+// console.log("welcome form%c lesson %cEight",'color:red; font-size: 30px;' , "")
+
+
+// video     What's EcmaScript       9
